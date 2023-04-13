@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Byte"
+        android:textAlignment="center"/>
+
+    <Button
+        android:onClick="getCacheSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Get Cache Size"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"/>
+
+
+    <Button
+        android:onClick="clearCacheBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Clear Cache"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
